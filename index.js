@@ -5,16 +5,16 @@ let num2 = parseFloat(prompt("Enter second number: "));
 let operator = prompt("Choose operator: +, -, /, *...");
 
 if (operator === "+") {
-  let result = num1 + num2;
+  result = num1 + num2;
   console.log(`${num1} ${operator} ${num2} equals ${result}`);
 } else if (operator === "-") {
-  let result = num1 - num2;
+  result = num1 - num2;
   console.log(`${num1} ${operator} ${num2} equals ${result}`);
 } else if (operator === "*") {
-  let result = num1 * num2;
+  result = num1 * num2;
   console.log(`${num1} ${operator} ${num2} equals ${result}`);
 } else if (operator === "/") {
-  let result = num1 / num2;
+  result = num1 / num2;
   console.log(`${num1} ${operator} ${num2} equals ${result}`);
 } else {
   console.log("Enter valid operator");
